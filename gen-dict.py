@@ -98,8 +98,8 @@ parser = argparse.ArgumentParser(
 parser.add_argument('input_file', help="input text file")
 parser.add_argument('output_file', help="file name for generated db")
 parser.add_argument('--resource_dir', help="resource files in the dir will be inserted into the db")
-parser.add_argument('--patch', help="specify the keywords for which to patch")
-parser.add_argument('--dryrun', default=False, action='store_true', help="specify the keywords for which to patch")
+parser.add_argument('--patch', help="specify the keyword for which to patch")
+parser.add_argument('--dryrun', default=False, action='store_true', help="test the command line")
 
 args = parser.parse_args()
 generateDb(args)

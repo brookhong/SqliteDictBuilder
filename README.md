@@ -1,6 +1,6 @@
 A python script to build dictionary for Dictorium.
 
-The input_file is a plain text file, each item is described in three lines. The 1st line of which is the key of the item, the 2nd is the value, and the 3rd is a delimiter line as `</>`. Please see [test.txt](https://github.com/brookhong/SqliteDictBuilder/tstdata/test.txt) for example.
+The input_file is a plain text file, each item is described in three lines. The 1st line of which is the key of the item, the 2nd is the value, and the 3rd is a delimiter line as `</>`. Please see [test.txt](https://github.com/brookhong/SqliteDictBuilder/blob/master/tstdata/test.txt) for example.
 
 The out_file is a sqlite file, you could use sqlite3 cli to check its schema.
 
@@ -19,8 +19,8 @@ The out_file is a sqlite file, you could use sqlite3 cli to check its schema.
       -h, --help            show this help message and exit
       --resource_dir RESOURCE_DIR
                             resource files in the dir will be inserted into the db
-      --patch PATCH         specify the keywords for which to patch
-      --dryrun              specify the keywords for which to patch
+      --patch PATCH         specify the keyword for which to patch
+      --dryrun              test the command line
 
 ## examples
 
